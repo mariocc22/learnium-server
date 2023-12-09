@@ -2,15 +2,15 @@ const fs = require("fs");
 const path = require("path");
 const pdf = require("pdf-parse");
 // Open AI
-const OpenAI = require("openai");
+//const OpenAI = require("openai");
 
 // POST request
 const express = require("express");
-const router = express.Router();
-const folderPOST = require("../routes/folders.js");
+//const router = express.Router();
+//const folderPOST = require("../routes/folders.js");
 
 // env
-require("dotenv/config");
+//require("dotenv/config");
 const api = process.env.API_URL;
 const hostname = process.env.HOSTNAME;
 const port = process.env.PORT;

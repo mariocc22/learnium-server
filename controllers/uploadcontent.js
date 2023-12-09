@@ -1,12 +1,12 @@
-const OpenAI = require("openai");
-const axios = require("axios");
-const dotenv = require("dotenv");
-require("dotenv/config");
+//const OpenAI = require("openai");
+//const axios = require("axios");
+//const dotenv = require("dotenv");
+//require("dotenv/config");
 const api = process.env.API_URL;
 const hostname = process.env.HOSTNAME;
 const port = process.env.PORT;
 // !change this to get userID from global state
-const mongoose = require("mongoose");
+//const mongoose = require("mongoose");
 
 const uploadContent = async (req, res) => {
   postToDB();
@@ -73,7 +73,7 @@ const postToDB = async (result) => {
     const requestOptions = {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(newFolder),
+     body: JSON.stringify(newFolder),
     };
     const folderRes = await fetch(
       `${hostname}:${port}${api}/folders`,

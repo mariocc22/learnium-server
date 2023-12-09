@@ -1,0 +1,32 @@
+(node:9118) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server is listening on port 3000
+DB Connection is ready
+GET / 401 1128 - 5.296 ms
+UnauthorizedError: No authorization token was found
+    at new UnauthorizedError (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/errors/UnauthorizedError.js:22:28)
+    at /home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:114:39
+    at step (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:33:23)
+    at Object.next (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:14:53)
+    at /home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:4:12)
+    at middleware (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:67:16)
+    at /home/ubuntu/learnium-server/node_modules/express-unless/dist/index.js:52:13
+    at Generator.next (<anonymous>)
+(node:11044) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server is listening on port 3000
+DB Connection is ready
+GET / 401 1128 - 5.240 ms
+UnauthorizedError: No authorization token was found
+    at new UnauthorizedError (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/errors/UnauthorizedError.js:22:28)
+    at /home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:114:39
+    at step (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:33:23)
+    at Object.next (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:14:53)
+    at /home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:4:12)
+    at middleware (/home/ubuntu/learnium-server/node_modules/express-jwt/dist/index.js:67:16)
+    at /home/ubuntu/learnium-server/node_modules/express-unless/dist/index.js:52:13
+    at Generator.next (<anonymous>)

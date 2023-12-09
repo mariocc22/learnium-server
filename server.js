@@ -35,25 +35,25 @@ app.use(authJwt());
 
 // Calling APIs
 // Quiz
-app.use(`${api}/quizzes`, quizzesRouter);
+app.use(`/quizzes`, quizzesRouter);
 // User
-app.use(`${api}/users`, usersRouter);
+app.use(`/users`, usersRouter);
 // Summary
 // app.use(`${api}/summaries`,summariesRouter)
 // Material
 // app.use(`${api}/materials`,materialsRouter)
 // Keytopic
-app.use(`${api}/keytopics`, keytopicsRouter);
+app.use(`/keytopics`, keytopicsRouter);
 // Folder
-app.use(`${api}/folders`, foldersRouter);
+app.use(`/folders`, foldersRouter);
 // Flashcard
-app.use(`${api}/flashcards`, flashcardsRouter);
+app.use(`/flashcards`, flashcardsRouter);
 // Detail
-app.use(`${api}/details`, detailsRouter);
+app.use(`/details`, detailsRouter);
 // History
-app.use(`${api}/historyquizzes`, historyquizzesRouter);
+app.use(`/historyquizzes`, historyquizzesRouter);
 // History Detail
-app.use(`${api}/historydetails`, historydetailsRouter);
+app.use(`/historydetails`, historydetailsRouter);
 
 // Connect MongoDB
 mongoose
